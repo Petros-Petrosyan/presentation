@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box {
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 5px 20px -15px black;
+  cursor: pointer;
+}
+
+.profile_content {
+  display: flex;
+  justify-content: center;
+}
+.profile_box {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 5px 20px -15px black;
+  cursor: pointer;
+}
