@@ -1,4 +1,4 @@
-const shablon = `<div class='box' onclick="goToProfile(_userId_)">
+const template = `<div class='box' onclick="goToProfile(_userId_)">
                     <h2>User N_id_</h2>
                     <p>Name: _name_</p>
                     <p>Email: _email_</p>
@@ -11,7 +11,7 @@ const goToProfile = (id) => {
 
 const createUser = (user) => {
     const {name, email, id} = user;
-    const content = shablon
+    const content = template
         .replace('_id_', id)
         .replace('_userId_', id)
         .replace('_name_', name)
