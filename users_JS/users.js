@@ -6,7 +6,7 @@ const template = `<div class='box' onclick="goToProfile(_userId_)">
 
 
 const goToProfile = (id) => {
-    window.location.href = `user/user.html?id=${id}`;
+    window.location.href = `profile/profile.html?id=${id}`;
 }
 
 const createUser = (user) => {
